@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background: blueviolet;
+  padding: 10px 25px;
+}
+
+.nav--logo{
+  height: 65px;
+}
