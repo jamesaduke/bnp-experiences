@@ -7,12 +7,14 @@ export default function Hero(){
         <section className="hero">
             <img src={ PhotoGrid } alt="grid" className="hero--photo"/>
 
-            <h3 className="hero--title">
-                Online Experiences
-            </h3>
-            <p className="hero--description">
-                In life there will be road blocks but we will over come it.
-            </p>
+            <div className="hero--content">
+                <h3 className="hero--title">
+                    Online Experiences
+                </h3>
+                <p className="hero--description">
+                    Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+                </p>
+            </div>
         </section>
     )
 }
