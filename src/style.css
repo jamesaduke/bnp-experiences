@@ -73,9 +73,30 @@ section{
 .hero--description{
   max-width: 300px;
   text-align: left;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 110%;
   color: #222222;
 
 }
 
+
+/* Card section */
+.card--image{
+  border-radius: 8px;
+  width: 176px;
+}
+
+.stats--image{
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.card--stats > span{
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.card--description{
+  font-size: 13.5px;
+}
