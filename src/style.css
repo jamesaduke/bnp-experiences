@@ -8,6 +8,9 @@ body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+.gray{
+  color: #918E9B;
+}
 
 nav{
   display: flex;
