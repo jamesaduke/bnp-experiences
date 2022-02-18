@@ -9,7 +9,7 @@ function App() {
   const dataMapped = data.map(item => {
     return <Card
       key={item.id}
-      item = {item}
+       {...item}
     />
   })
   console.log(dataMapped);
