@@ -4,7 +4,7 @@ export default [
 		title: "Camp like a Californian: Lake Tahoe",
 		description: "",
 		price: 439,
-		coverImg: "public/images/camp-and-fire.png",
+		coverImg: "/camp-and-fire.png",
 		stats: {
 			rating: 5,
 			reviewCount: 3,

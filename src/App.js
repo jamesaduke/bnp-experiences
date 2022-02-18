@@ -24,7 +24,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      {dataMapped}
+
+      <section className="cards-container">
+        {dataMapped}
+      </section>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Star from "../images/star.png";
 
 export default function Card({key, title, description, price, coverImg, rating, reviewCount, location, openSpots}) {
     return (
-        <section className="card">
+        <div className="card">
             <img src={`/images/${coverImg}`} alt="Swimmer" className="card--image"/>
 
             <div className="card--stats">
@@ -12,9 +12,9 @@ export default function Card({key, title, description, price, coverImg, rating, 
                 <span className="gray">({reviewCount})</span>
                 <span className="gray">{location}</span>
             </div>
-            <p className="card--description"> {title}</p>
-            <p className="card--description"><strong>From ${price}</strong>/ person</p>
+            <p className="card--title"> {title}</p>
+            <p className="card--price"><strong>From ${price}</strong>/ person</p>
 
-        </section>
+        </div>
     )
 }
